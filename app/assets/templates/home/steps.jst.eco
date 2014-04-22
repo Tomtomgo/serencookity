@@ -1,0 +1,6 @@
+<h2>Directions</h2>
+<% for step in @steps: %>
+    <div>
+        <%= step %>
+    </div>
+<% end %>

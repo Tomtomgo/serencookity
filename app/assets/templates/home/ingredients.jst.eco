@@ -1,0 +1,21 @@
+<h2>Ingredients</h2>
+<% for ingredient in @ingredients: %>
+    <table>
+        <tr>
+        <% if ingredient['quantity']?: %>
+            <td>
+                <%= ingredient['quantity'] %>
+            </td>
+        <% end %>
+
+        <% if ingredient['unit']?: %>
+            <td>
+                <%= ingredient['unit'] %>
+            </td>
+            <% end %>
+            <td>
+                <%= ingredient['name'].toLowerCase() %>
+            </td>
+        </tr>
+    </table>
+<% end %>

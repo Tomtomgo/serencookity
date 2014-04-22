@@ -1,1 +1,5 @@
-<h1 id="tittle"></h1>
+<h1 id="recipe_title" />
+
+<div id="ingredients_container" />
+
+<div id="steps_container" />
